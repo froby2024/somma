@@ -1,4 +1,4 @@
- Usa un'immagine base di Python
+#Usa un'immagine base di Python
 FROM python:3.9-slim
 
 # Imposta la directory di lavoro nel container
