@@ -1,5 +1,5 @@
 #Usa un'immagine base di Python
-FROM python:3.9-slim
+FROM python:3.10
 
 # Imposta la directory di lavoro nel container
 WORKDIR /app
@@ -22,4 +22,4 @@ EXPOSE 5000
 
 
 # Definisce il comando per avviare l'applicazione
-CMD ["python", "app.py"]
+CMD ["python3", "app.py"]
