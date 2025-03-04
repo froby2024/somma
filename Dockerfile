@@ -6,11 +6,11 @@ WORKDIR /app
 
 
 # Copia il file requirements.txt nella directory di lavoro
-# COPY requirements.txt .
+COPY requirements.txt .
 
 
 # Installa le dipendenze
-# RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 
 # Copia il resto del codice dell'applicazione
@@ -22,4 +22,4 @@ EXPOSE 5000
 
 
 # Definisce il comando per avviare l'applicazione
-CMD ["python", "sommatoria.py"]
+CMD ["python", "app.py"]
