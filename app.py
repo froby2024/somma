@@ -10,7 +10,7 @@ app = Flask(__name__)
 # Lega un URL a una funzione associata
 @app.route('/')
 def hello_world():
-  return 'Buon giorno sono le ore 11:57'
+  return 'Buon giorno sono le ore 11:57ccc'
 
 
 # Se il file viene eseguito direttamente
